@@ -72,7 +72,7 @@ async def restart(client, m: Message):
     )
     await umm.delete()
     owner=await pbot.get_users(OWNER_ID)
-    await m.reply_photo(
+    await m.reply_video(
         START_IMG,
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
